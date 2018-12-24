@@ -65,6 +65,10 @@ $grey-color:        #828282;
 $grey-color-light:  lighten($grey-color, 40%);
 $grey-color-dark:   darken($grey-color, 25%);
 
+//Color added exclusive for Umich
+$umich-maize:		#ffcb05;
+$umich-blue:		#00274c;
+
 $darken-1:          rgba(#000,.0625) !default;
 $darken-2:          rgba(#000,.125) !default;
 $darken-3:          rgba(#000,.25) !default;
@@ -143,12 +147,13 @@ $hljs-chunk: $light-gray;
 $nav-height: 56px;
 
 // Footer
-$footer-border-top: thin solid $grey-color-dark;
-$footer-padding: $space-1;
-$footer-color: $light-gray;
-$footer-bg-color: $grey-color-dark;
-$footer-font-weight: 300;
-$footer-font-size: .75rem;
+$footer-border-top:			thin solid $umich-blue;
+$footer-padding:			$space-1;
+$footer-color:				$umich_maize;
+$footer-bg-color:			$grey-color-dark;
+$footer-background-color:	$umich-blue;
+$footer-font-weight:		300;
+$footer-font-size: 			.75rem;
 
 
 /******************************************************************************/
